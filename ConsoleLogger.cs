@@ -1,6 +1,6 @@
 ﻿namespace DependencyInjectionDemo
 {
-    internal class ConsoleLogger : ILogger
+    public class ConsoleLogger : ILogger
     {
         public void Log(string message, LogLevel level)
         {

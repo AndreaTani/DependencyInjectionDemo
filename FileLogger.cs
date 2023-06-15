@@ -1,6 +1,6 @@
 ﻿namespace DependencyInjectionDemo
 {
-    internal class FileLogger : ILogger
+    public class FileLogger : ILogger
     {
         public void Log(string message, LogLevel level)
         {
